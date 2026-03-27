@@ -6,12 +6,6 @@
 
 ---
 
-> **GitHub “About” description** (paste under repository name → *Edit* → Description, ~350 characters max):
->
-> *Web & API posture scanner: security headers, TLS, DNS & mail auth, exposed ports (Shodan), subdomains, source/JS secret patterns, takeover checks, optional VirusTotal & Gemini—Next.js, no database.*
-
----
-
 ## What is Argus?
 
 **Argus** is a **browser + server** security tool for **websites, APIs, and hosts** you are **authorized** to test. You enter a URL, domain, or IP; the app runs **real checks** (not a mock) through **Next.js API routes** and shows results in one dashboard.
@@ -88,17 +82,6 @@ npm run dev:clean
 If port `3000` is busy: `npx next dev -p 3001`.
 
 ---
-
-## Deploy (public, free-friendly)
-
-Argus needs a **Node** host (API routes). **Good fits:**
-
-- **[Vercel](https://vercel.com)** — import this repo; set env vars in the dashboard ([live example](https://argus-security-intelligence.vercel.app/)).
-- **Netlify**, **Render**, **Railway**, **Fly.io**, or a small **VPS** with `npm run build && npm run start`.
-
-**Not suitable:** **GitHub Pages** (static only), **PythonAnywhere** (Python WSGI; not a Node server).
-
-**Health check:** `GET /api/health` → `{ "ok": true, "service": "argus", ... }`.
 
 ### Recommended environment variables (production)
 
