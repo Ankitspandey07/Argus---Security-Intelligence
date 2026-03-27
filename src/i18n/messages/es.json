@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "Inteligencia de seguridad" },
+  "nav": { "scanner": "Escáner", "workspace": "Revisión de código y decodificador" },
+  "prefs": {
+    "highContrast": "Alto contraste",
+    "language": "Idioma",
+    "localeHint": "Fechas y números usan esta configuración regional."
+  },
+  "scanner": {
+    "recentScans": "Escaneos recientes",
+    "loadingRuns": "Cargando ejecuciones guardadas…",
+    "emptyHistory": "Completa un escaneo para guardarlo aquí (hasta {max} ejecuciones).",
+    "exportReport": "Exportar informe",
+    "presetQuick": "Rápido",
+    "presetComplete": "Completo"
+  },
+  "historyCompare": {
+    "compareRuns": "Comparar ejecuciones",
+    "runA": "Ejecución A",
+    "runB": "Ejecución B",
+    "close": "Cerrar",
+    "noHeaderScan": "No hay escaneo de cabeceras en la instantánea.",
+    "cvesSection": "CVE en B que no están en A",
+    "noCvesDiff": "Ninguno (o sin metadatos CVE en las instantáneas).",
+    "score": "Puntuación:",
+    "headersPass": "Cabeceras OK:",
+    "clearAllConfirm": "¿Eliminar todos los escaneos recientes en este perfil del navegador?",
+    "clearAllMine": "Borrar los míos",
+    "privacy1": "Solo se guarda en este dispositivo / perfil del navegador — no se envía a ningún servidor.",
+    "privacy2": "Las entradas caducan automáticamente a los {days} días.",
+    "privacy3": "En un equipo compartido, usa una ventana privada para historial separado.",
+    "compareCheckbox": "Comparar",
+    "open": "Abrir",
+    "removeAria": "Quitar del historial",
+    "compareSelected": "Comparar selección"
+  },
+  "footer": { "product": "Argus — Inteligencia de seguridad" },
+  "scanForm": {
+    "badge": "Escaneos reales. Resultados reales. Cero simulación.",
+    "heroLine1": "Analiza cualquier objetivo.",
+    "heroLine2": "Sábelo todo.",
+    "intro": "Introduce una URL, dominio, IP o endpoint de API. Elige la profundidad del escaneo: todo se ejecuta en el navegador y en esta app; sin registro ni base de datos.",
+    "scanDepth": "Profundidad del escaneo",
+    "presetQuickFeatures": "cabeceras, TLS, puertos, SPF/DMARC, robots y security.txt, takeover.",
+    "presetCompleteFeatures": "añade rastreo de código, subdominios, VirusTotal, wp-cron, Google dork, resumen con IA.",
+    "targetPlaceholder": "ejemplo.com, 93.184.216.34 o https://api.ejemplo.com/v1",
+    "scanning": "Escaneando",
+    "analyze": "Analizar",
+    "tryLabel": "Probar:",
+    "apiKeySummary": "Host compartido: clave API para rutas Argus (opcional)",
+    "apiKeyHelpStart": "Si el servidor define ",
+    "apiKeyHelpMid": ", pega aquí el mismo valor. Solo se guarda en este navegador y se envía como ",
+    "apiKeyHelpEnd": ".",
+    "apiKeyPlaceholder": "Pegar clave API del servidor…"
+  },
+  "home": {
+    "dataSources": "Fuentes de datos",
+    "featureCards": {
+      "headers": "Cabeceras de seguridad",
+      "headersDesc": "Calificación OWASP + cookies",
+      "source": "Escaneo de fugas en código",
+      "sourceDesc": "Rastreo de páginas y JS en busca de claves y credenciales (escaneo completo)",
+      "ports": "Puertos + takeover",
+      "portsDesc": "Puertos de alto riesgo Shodan; heurísticas CNAME takeover",
+      "ai": "IA + VirusTotal",
+      "aiDesc": "Intel de dominio; resumen Gemini si está configurado (completo)",
+      "mail": "Correo y archivos del sitio",
+      "mailDesc": "DNS SPF/DMARC, robots.txt y security.txt",
+      "preset": "Rápido vs completo",
+      "presetDesc": "Rápido: chequeo rápido. Completo: subdominios, rastreo, dorks, IA."
+    }
+  }
+}

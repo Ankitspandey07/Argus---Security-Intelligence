@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "セキュリティインテリジェンス" },
+  "nav": { "scanner": "スキャナー", "workspace": "コードレビューとデコーダ" },
+  "prefs": {
+    "highContrast": "ハイコントラスト",
+    "language": "言語",
+    "localeHint": "日付と数値の表示はこのロケールに従います。"
+  },
+  "scanner": {
+    "recentScans": "最近のスキャン",
+    "loadingRuns": "保存済みの実行を読み込み中…",
+    "emptyHistory": "スキャンを完了するとここに保存されます（最大 {max} 件）。",
+    "exportReport": "レポートをエクスポート",
+    "presetQuick": "クイック",
+    "presetComplete": "フル"
+  },
+  "historyCompare": {
+    "compareRuns": "実行を比較",
+    "runA": "実行 A",
+    "runB": "実行 B",
+    "close": "閉じる",
+    "noHeaderScan": "スナップショットにヘッダースキャンがありません。",
+    "cvesSection": "B にあって A にない CVE",
+    "noCvesDiff": "なし（またはスナップショットに CVE メタデータがありません）。",
+    "score": "スコア:",
+    "headersPass": "ヘッダー合格:",
+    "clearAllConfirm": "このブラウザプロファイルの最近のスキャンをすべて削除しますか？",
+    "clearAllMine": "自分の分をすべて消去",
+    "privacy1": "この端末／ブラウザプロファイルにのみ保存され、サーバーには送信されません。",
+    "privacy2": "エントリは {days} 日後に自動的に削除されます。",
+    "privacy3": "共有PCでは、プライベートウィンドウで履歴を分けてください。",
+    "compareCheckbox": "比較",
+    "open": "開く",
+    "removeAria": "履歴から削除",
+    "compareSelected": "選択したものを比較"
+  },
+  "footer": { "product": "Argus セキュリティインテリジェンス" },
+  "scanForm": {
+    "badge": "実スキャン。実結果。シミュレーションなし。",
+    "heroLine1": "あらゆる対象を分析。",
+    "heroLine2": "すべてを把握。",
+    "intro": "URL、ドメイン、IP、または API エンドポイントを入力し、スキャン深度を選びます。ブラウザとこのアプリ上で処理され、登録やデータベースは不要です。",
+    "scanDepth": "スキャン深度",
+    "presetQuickFeatures": "ヘッダー、TLS、ポート、SPF/DMARC、robots と security.txt、テイクオーバー。",
+    "presetCompleteFeatures": "ソースクロール、サブドメイン、VirusTotal、wp-cron、Google ダーク、AI 要約を追加。",
+    "targetPlaceholder": "example.com、93.184.216.34、または https://api.example.com/v1",
+    "scanning": "スキャン中",
+    "analyze": "分析",
+    "tryLabel": "試す:",
+    "apiKeySummary": "共有ホスト: Argus ルート用 API キー（任意）",
+    "apiKeyHelpStart": "サーバーで ",
+    "apiKeyHelpMid": " が設定されているとき、同じ値をここに貼り付けてください。このブラウザにのみ保存され、",
+    "apiKeyHelpEnd": " として送信されます。",
+    "apiKeyPlaceholder": "サーバーの API キーを貼り付け…"
+  },
+  "home": {
+    "dataSources": "データソース",
+    "featureCards": {
+      "headers": "セキュリティヘッダー",
+      "headersDesc": "OWASP 準拠のヘッダー評価と Cookie",
+      "source": "ソース漏えいスキャン",
+      "sourceDesc": "ページと JS をクロールし、鍵・JWT・認証情報を検出（フルスキャン）",
+      "ports": "ポート + テイクオーバー",
+      "portsDesc": "Shodan の高リスクポート、CNAME テイクオーバー推定",
+      "ai": "AI + VirusTotal",
+      "aiDesc": "ドメイン情報、設定時は Gemini 要約（フル）",
+      "mail": "メールとサイトファイル",
+      "mailDesc": "SPF/DMARC DNS、robots.txt と security.txt — 追加アカウント不要",
+      "preset": "クイックとフル",
+      "presetDesc": "クイック: 迅速な確認。フル: サブドメイン、クロール、ダーク、AI。"
+    }
+  }
+}

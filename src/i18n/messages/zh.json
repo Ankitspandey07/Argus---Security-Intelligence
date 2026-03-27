@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "安全情报" },
+  "nav": { "scanner": "扫描器", "workspace": "代码审查与解码器" },
+  "prefs": {
+    "highContrast": "高对比度",
+    "language": "语言",
+    "localeHint": "日期与数字将按此区域设置显示。"
+  },
+  "scanner": {
+    "recentScans": "最近扫描",
+    "loadingRuns": "正在加载已保存的运行…",
+    "emptyHistory": "完成一次扫描即可在此保存（最多 {max} 条）。",
+    "exportReport": "导出报告",
+    "presetQuick": "快速",
+    "presetComplete": "完整"
+  },
+  "historyCompare": {
+    "compareRuns": "比较运行",
+    "runA": "运行 A",
+    "runB": "运行 B",
+    "close": "关闭",
+    "noHeaderScan": "快照中没有头部扫描数据。",
+    "cvesSection": "在 B 中但不在 A 中的 CVE",
+    "noCvesDiff": "无（或快照中没有 CVE 元数据）。",
+    "score": "分数：",
+    "headersPass": "头部通过：",
+    "clearAllConfirm": "删除此浏览器配置文件下的所有最近扫描？",
+    "clearAllMine": "清除我的全部",
+    "privacy1": "仅保存在本设备/浏览器配置文件中 — 不会发送到服务器。",
+    "privacy2": "条目将在 {days} 天后自动过期。",
+    "privacy3": "在共享计算机上请使用隐私窗口以分离历史记录。",
+    "compareCheckbox": "比较",
+    "open": "打开",
+    "removeAria": "从历史中移除",
+    "compareSelected": "比较所选"
+  },
+  "footer": { "product": "Argus 安全情报" },
+  "scanForm": {
+    "badge": "真实扫描。真实结果。零模拟。",
+    "heroLine1": "分析任意目标。",
+    "heroLine2": "掌握一切。",
+    "intro": "输入 URL、域名、IP 或 API 端点。选择扫描深度 — 全部在浏览器与本应用中运行；无需注册或数据库。",
+    "scanDepth": "扫描深度",
+    "presetQuickFeatures": "响应头、TLS、端口、SPF/DMARC、robots 与 security.txt、接管检测。",
+    "presetCompleteFeatures": "另含源码爬取、子域、VirusTotal、wp-cron、Google dork、AI 摘要。",
+    "targetPlaceholder": "example.com、93.184.216.34 或 https://api.example.com/v1",
+    "scanning": "扫描中",
+    "analyze": "分析",
+    "tryLabel": "试试：",
+    "apiKeySummary": "共享主机：Argus 路由的 API 密钥（可选）",
+    "apiKeyHelpStart": "当服务器设置了 ",
+    "apiKeyHelpMid": " 时，在此粘贴相同值。仅保存在本浏览器，通过请求头 ",
+    "apiKeyHelpEnd": " 发送。",
+    "apiKeyPlaceholder": "粘贴服务器 API 密钥…"
+  },
+  "home": {
+    "dataSources": "数据来源",
+    "featureCards": {
+      "headers": "安全响应头",
+      "headersDesc": "符合 OWASP 的头部评分 + Cookie",
+      "source": "源码泄露扫描",
+      "sourceDesc": "爬取页面与 JS，查找密钥、JWT、凭据（完整扫描）",
+      "ports": "端口 + 接管",
+      "portsDesc": "Shodan 高风险端口；CNAME 接管启发式",
+      "ai": "AI + VirusTotal",
+      "aiDesc": "域名情报；配置后提供 Gemini 摘要（完整）",
+      "mail": "邮件与站点文件",
+      "mailDesc": "SPF/DMARC DNS、robots.txt 与 security.txt — 无需额外账号",
+      "preset": "快速与完整",
+      "presetDesc": "快速：快速态势检查。完整：子域、爬取、暗网搜索、AI。"
+    }
+  }
+}

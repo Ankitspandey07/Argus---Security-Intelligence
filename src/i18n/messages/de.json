@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "Security Intelligence" },
+  "nav": { "scanner": "Scanner", "workspace": "Code-Review & Decoder" },
+  "prefs": {
+    "highContrast": "Hoher Kontrast",
+    "language": "Sprache",
+    "localeHint": "Datums- und Zahlenformat folgen dieser Locale."
+  },
+  "scanner": {
+    "recentScans": "Letzte Scans",
+    "loadingRuns": "Gespeicherte Läufe werden geladen…",
+    "emptyHistory": "Führen Sie einen Scan aus, um ihn hier zu speichern (bis zu {max} Läufe).",
+    "exportReport": "Bericht exportieren",
+    "presetQuick": "Schnell",
+    "presetComplete": "Vollständig"
+  },
+  "historyCompare": {
+    "compareRuns": "Läufe vergleichen",
+    "runA": "Lauf A",
+    "runB": "Lauf B",
+    "close": "Schließen",
+    "noHeaderScan": "Kein Header-Scan im Snapshot.",
+    "cvesSection": "CVEs in B, die nicht in A sind",
+    "noCvesDiff": "Keine (oder keine CVE-Metadaten in den Snapshots).",
+    "score": "Punktzahl:",
+    "headersPass": "Header bestanden:",
+    "clearAllConfirm": "Alle letzten Scans in diesem Browserprofil entfernen?",
+    "clearAllMine": "Alle meine löschen",
+    "privacy1": "Nur auf diesem Gerät / in diesem Browserprofil gespeichert — nicht an einen Server gesendet.",
+    "privacy2": "Einträge verfallen automatisch nach {days} Tagen.",
+    "privacy3": "Auf einem gemeinsam genutzten Rechner ein privates Fenster für getrennten Verlauf nutzen.",
+    "compareCheckbox": "Vergleichen",
+    "open": "Öffnen",
+    "removeAria": "Aus dem Verlauf entfernen",
+    "compareSelected": "Auswahl vergleichen"
+  },
+  "footer": { "product": "Argus Security Intelligence" },
+  "scanForm": {
+    "badge": "Echte Scans. Echte Ergebnisse. Keine Simulation.",
+    "heroLine1": "Beliebiges Ziel analysieren.",
+    "heroLine2": "Alles wissen.",
+    "intro": "URL, Domain, IP oder API-Endpunkt eingeben. Scan-Tiefe wählen — alles läuft im Browser und in dieser App; ohne Anmeldung oder Datenbank.",
+    "scanDepth": "Scan-Tiefe",
+    "presetQuickFeatures": "Header, TLS, Ports, SPF/DMARC, robots & security.txt, Takeover.",
+    "presetCompleteFeatures": "ergänzt Source-Crawl, Subdomains, VirusTotal, wp-cron, Google-Dork, KI-Zusammenfassung.",
+    "targetPlaceholder": "beispiel.de, 93.184.216.34 oder https://api.beispiel.de/v1",
+    "scanning": "Scan läuft",
+    "analyze": "Analysieren",
+    "tryLabel": "Testen:",
+    "apiKeySummary": "Geteilter Host: API-Schlüssel für Argus-Routen (optional)",
+    "apiKeyHelpStart": "Wenn der Server ",
+    "apiKeyHelpMid": " setzt, hier denselben Wert einfügen. Nur in diesem Browser gespeichert und gesendet als ",
+    "apiKeyHelpEnd": ".",
+    "apiKeyPlaceholder": "Server-API-Schlüssel einfügen…"
+  },
+  "home": {
+    "dataSources": "Datenquellen",
+    "featureCards": {
+      "headers": "Security-Header",
+      "headersDesc": "OWASP-orientierte Header-Bewertung + Cookies",
+      "source": "Source-Leak-Scan",
+      "sourceDesc": "Seiten & JS nach Schlüsseln, JWTs, Zugangsdaten (Vollscan)",
+      "ports": "Ports + Takeover",
+      "portsDesc": "Shodan-Risikoports; CNAME-Takeover-Heuristiken",
+      "ai": "KI + VirusTotal",
+      "aiDesc": "Domain-Intel; Gemini-Zusammenfassung wenn konfiguriert (Vollständig)",
+      "mail": "Mail & Site-Dateien",
+      "mailDesc": "SPF/DMARC-DNS, robots.txt & security.txt — ohne Extra-Accounts",
+      "preset": "Schnell vs. Vollständig",
+      "presetDesc": "Schnell: schneller Lagecheck. Vollständig: Subdomains, Crawl, Dorks, KI."
+    }
+  }
+}

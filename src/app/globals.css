@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  --color-bg: #0a0e1a;
+  --color-surface: #111827;
+  --color-surface-2: #1a2235;
+  --color-border: #1f2937;
+  --color-border-hover: #374151;
+  --color-accent: #6366f1;
+  --color-accent-hover: #818cf8;
+  --color-accent-muted: #4f46e510;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+  --color-text: #e5e7eb;
+  --color-text-muted: #9ca3af;
+  --color-text-dim: #6b7280;
+}
+
+/* Stronger contrast for bright rooms; toggled via cookie + html.high-contrast */
+html.high-contrast {
+  --color-bg: #000000;
+  --color-surface: #0d0d0d;
+  --color-surface-2: #161616;
+  --color-border: #404040;
+  --color-border-hover: #525252;
+  --color-accent: #7c3aed;
+  --color-accent-hover: #a78bfa;
+  --color-accent-muted: #5b21b620;
+  --color-success: #16a34a;
+  --color-warning: #eab308;
+  --color-danger: #dc2626;
+  --color-info: #2563eb;
+  --color-text: #fafafa;
+  --color-text-muted: #d4d4d4;
+  --color-text-dim: #a3a3a3;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-border-hover); }
+
+@keyframes scan-sweep {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.15); }
+  50% { box-shadow: 0 0 40px rgba(99, 102, 241, 0.3); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.scan-progress-bar {
+  background: linear-gradient(90deg, var(--color-accent), var(--color-info), var(--color-accent));
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Tailwind v4 can emit invalid CSS for group-open:rotate-90 when the group is <details>
+   (broken selector like [details[open] &]). Use a plain attribute rule instead. */
+details.vt-analyst-disclosure[open] .vt-analyst-disclosure-chevron {
+  transform: rotate(90deg);
+}

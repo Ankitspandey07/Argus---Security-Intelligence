@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "सुरक्षा बुद्धिमत्ता" },
+  "nav": { "scanner": "स्कैनर", "workspace": "कोड समीक्षा और डिकोडर" },
+  "prefs": {
+    "highContrast": "उच्च कॉन्ट्रास्ट",
+    "language": "भाषा",
+    "localeHint": "तारीख और संख्याएँ इस लोकेल के अनुसार दिखेंगी।"
+  },
+  "scanner": {
+    "recentScans": "हाल के स्कैन",
+    "loadingRuns": "सहेजे गए रन लोड हो रहे हैं…",
+    "emptyHistory": "स्कैन पूरा करें ताकि यहाँ सहेजा जाए (अधिकतम {max} रन)।",
+    "exportReport": "रिपोर्ट निर्यात करें",
+    "presetQuick": "त्वरित",
+    "presetComplete": "पूर्ण"
+  },
+  "historyCompare": {
+    "compareRuns": "रन की तुलना करें",
+    "runA": "रन A",
+    "runB": "रन B",
+    "close": "बंद करें",
+    "noHeaderScan": "स्नैपशॉट में हेडर स्कैन नहीं है।",
+    "cvesSection": "B में CVE जो A में नहीं हैं",
+    "noCvesDiff": "कोई नहीं (या स्नैपशॉट में CVE मेटाडेटा नहीं)।",
+    "score": "स्कोर:",
+    "headersPass": "हेडर पास:",
+    "clearAllConfirm": "इस ब्राउज़र प्रोफ़ाइल के सभी हाल के स्कैन हटाएँ?",
+    "clearAllMine": "मेरे सभी साफ़ करें",
+    "privacy1": "केवल इस डिवाइस / ब्राउज़र प्रोफ़ाइल पर सहेजा गया — सर्वर पर नहीं भेजा जाता।",
+    "privacy2": "प्रविष्टियाँ {days} दिनों के बाद स्वतः हट जाती हैं।",
+    "privacy3": "साझा कंप्यूटर पर अलग इतिहास के लिए निजी विंडो का उपयोग करें।",
+    "compareCheckbox": "तुलना",
+    "open": "खोलें",
+    "removeAria": "इतिहास से हटाएँ",
+    "compareSelected": "चयनित की तुलना करें"
+  },
+  "footer": { "product": "Argus — सुरक्षा बुद्धिमत्ता" },
+  "scanForm": {
+    "badge": "असली स्कैन। असली परिणाम। शून्य सिमुलेशन।",
+    "heroLine1": "किसी भी लक्ष्य का विश्लेषण करें।",
+    "heroLine2": "सब कुछ जानें।",
+    "intro": "URL, डोमेन, IP या API एंडपॉइंट दर्ज करें। स्कैन गहराई चुनें — सब कुछ ब्राउज़र और इस ऐप में चलता है; साइन-अप या डेटाबेस नहीं।",
+    "scanDepth": "स्कैन गहराई",
+    "presetQuickFeatures": "हेडर, TLS, पोर्ट, SPF/DMARC, robots और security.txt, टेकओवर।",
+    "presetCompleteFeatures": "स्रोत क्रॉल, उपडोमेन, VirusTotal, wp-cron, Google डॉर्क, AI सारांश जोड़ता है।",
+    "targetPlaceholder": "example.com, 93.184.216.34, या https://api.example.com/v1",
+    "scanning": "स्कैन हो रहा है",
+    "analyze": "विश्लेषण करें",
+    "tryLabel": "आज़माएँ:",
+    "apiKeySummary": "साझा होस्ट: Argus रूट्स के लिए API कुंजी (वैकल्पिक)",
+    "apiKeyHelpStart": "जब सर्वर पर ",
+    "apiKeyHelpMid": " सेट हो, वही मान यहाँ चिपकाएँ। यह केवल इस ब्राउज़र में सहेजी जाती है और ",
+    "apiKeyHelpEnd": " के रूप में भेजी जाती है।",
+    "apiKeyPlaceholder": "सर्वर API कुंजी चिपकाएँ…"
+  },
+  "home": {
+    "dataSources": "डेटा स्रोत",
+    "featureCards": {
+      "headers": "सुरक्षा हेडर",
+      "headersDesc": "OWASP-अनुरूप हेडर ग्रेडिंग + कुकीज़",
+      "source": "स्रोत रिसाव स्कैन",
+      "sourceDesc": "पृष्ठों और JS में कुंजी, JWT, क्रेडेंशियल (पूर्ण स्कैन)",
+      "ports": "पोर्ट + टेकओवर",
+      "portsDesc": "Shodan उच्च-जोखिम पोर्ट; CNAME टेकओवर ह्यूरिस्टिक्स",
+      "ai": "AI + VirusTotal",
+      "aiDesc": "डोमेन इंटेल; कॉन्फ़िगर होने पर Gemini सारांश (पूर्ण)",
+      "mail": "मेल और साइट फ़ाइलें",
+      "mailDesc": "SPF/DMARC DNS, robots.txt और security.txt — अतिरिक्त खाते नहीं",
+      "preset": "त्वरित बनाम पूर्ण",
+      "presetDesc": "त्वरित: तेज़ जाँच। पूर्ण: उपडोमेन, क्रॉल, डॉर्क, AI।"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "Renseignement sur la sécurité" },
+  "nav": { "scanner": "Scanner", "workspace": "Revue de code et décodeur" },
+  "prefs": {
+    "highContrast": "Contraste élevé",
+    "language": "Langue",
+    "localeHint": "Les dates et les nombres suivent cette langue."
+  },
+  "scanner": {
+    "recentScans": "Analyses récentes",
+    "loadingRuns": "Chargement des exécutions enregistrées…",
+    "emptyHistory": "Lancez une analyse pour l’enregistrer ici (jusqu’à {max} exécutions).",
+    "exportReport": "Exporter le rapport",
+    "presetQuick": "Rapide",
+    "presetComplete": "Complet"
+  },
+  "historyCompare": {
+    "compareRuns": "Comparer les exécutions",
+    "runA": "Exécution A",
+    "runB": "Exécution B",
+    "close": "Fermer",
+    "noHeaderScan": "Aucun scan d’en-têtes dans l’instantané.",
+    "cvesSection": "CVE présents en B mais pas en A",
+    "noCvesDiff": "Aucun (ou pas de métadonnées CVE dans les instantanés).",
+    "score": "Score :",
+    "headersPass": "En-têtes conformes :",
+    "clearAllConfirm": "Supprimer toutes les analyses récentes pour ce profil de navigateur ?",
+    "clearAllMine": "Tout effacer (moi)",
+    "privacy1": "Enregistré uniquement sur cet appareil / ce profil de navigateur — rien n’est envoyé au serveur.",
+    "privacy2": "Les entrées expirent automatiquement après {days} jours.",
+    "privacy3": "Sur un ordinateur partagé, utilisez une fenêtre privée pour un historique séparé.",
+    "compareCheckbox": "Comparer",
+    "open": "Ouvrir",
+    "removeAria": "Retirer de l’historique",
+    "compareSelected": "Comparer la sélection"
+  },
+  "footer": { "product": "Argus — Renseignement sur la sécurité" },
+  "scanForm": {
+    "badge": "Vrais scans. Vrais résultats. Zéro simulation.",
+    "heroLine1": "Analysez n’importe quelle cible.",
+    "heroLine2": "Tout savoir.",
+    "intro": "Saisissez une URL, un domaine, une IP ou un point d’API. Choisissez la profondeur d’analyse — tout s’exécute dans le navigateur et cette appli ; sans inscription ni base de données.",
+    "scanDepth": "Profondeur du scan",
+    "presetQuickFeatures": "en-têtes, TLS, ports, SPF/DMARC, robots et security.txt, takeover.",
+    "presetCompleteFeatures": "ajoute crawl des sources, sous-domaines, VirusTotal, wp-cron, Google dork, résumé IA.",
+    "targetPlaceholder": "exemple.com, 93.184.216.34 ou https://api.exemple.com/v1",
+    "scanning": "Analyse en cours",
+    "analyze": "Analyser",
+    "tryLabel": "Essayer :",
+    "apiKeySummary": "Hôte partagé : clé API pour les routes Argus (facultatif)",
+    "apiKeyHelpStart": "Lorsque le serveur définit ",
+    "apiKeyHelpMid": ", collez la même valeur ici. Elle n’est stockée que dans ce navigateur et envoyée comme ",
+    "apiKeyHelpEnd": ".",
+    "apiKeyPlaceholder": "Coller la clé API du serveur…"
+  },
+  "home": {
+    "dataSources": "Sources de données",
+    "featureCards": {
+      "headers": "En-têtes de sécurité",
+      "headersDesc": "Notation alignée OWASP + cookies",
+      "source": "Fuite dans les sources",
+      "sourceDesc": "Parcours pages et JS : clés, JWT, identifiants (scan complet)",
+      "ports": "Ports + prise de contrôle",
+      "portsDesc": "Ports à risque Shodan ; heuristiques CNAME takeover",
+      "ai": "IA + VirusTotal",
+      "aiDesc": "Renseignements sur le domaine ; résumé Gemini si configuré (complet)",
+      "mail": "E-mail et fichiers du site",
+      "mailDesc": "DNS SPF/DMARC, robots.txt et security.txt — sans compte supplémentaire",
+      "preset": "Rapide ou complet",
+      "presetDesc": "Rapide : bilan rapide. Complet : sous-domaines, crawl, dorks, IA."
+    }
+  }
+}

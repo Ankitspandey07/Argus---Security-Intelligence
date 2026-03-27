@@ -1,0 +1,73 @@
+{
+  "brand": { "title": "Argus", "tagline": "Security Intelligence" },
+  "nav": { "scanner": "Scanner", "workspace": "Code review & decoder" },
+  "prefs": {
+    "highContrast": "High contrast",
+    "language": "Language",
+    "localeHint": "Dates and numbers follow this locale."
+  },
+  "scanner": {
+    "recentScans": "Recent scans",
+    "loadingRuns": "Loading saved runs…",
+    "emptyHistory": "Complete a scan to save it here (up to {max} runs).",
+    "exportReport": "Export report",
+    "presetQuick": "Quick",
+    "presetComplete": "Complete"
+  },
+  "historyCompare": {
+    "compareRuns": "Compare runs",
+    "runA": "Run A",
+    "runB": "Run B",
+    "close": "Close",
+    "noHeaderScan": "No header scan in snapshot.",
+    "cvesSection": "CVEs in B not in A",
+    "noCvesDiff": "None (or no CVE metadata in snapshots).",
+    "score": "Score:",
+    "headersPass": "Headers pass:",
+    "clearAllConfirm": "Remove all recent scans on this browser profile?",
+    "clearAllMine": "Clear all mine",
+    "privacy1": "Saved only on this device / browser profile — not sent to a server.",
+    "privacy2": "Entries drop automatically after {days} days.",
+    "privacy3": "On a shared computer, use a private window for separate history.",
+    "compareCheckbox": "Compare",
+    "open": "Open",
+    "removeAria": "Remove from history",
+    "compareSelected": "Compare selected"
+  },
+  "footer": { "product": "Argus Security Intelligence" },
+  "scanForm": {
+    "badge": "Real scans. Real results. Zero simulation.",
+    "heroLine1": "Analyze any target.",
+    "heroLine2": "Know everything.",
+    "intro": "Enter a URL, domain, IP, or API endpoint. Choose a scan depth — everything runs in the browser + this app; no sign-up or database.",
+    "scanDepth": "Scan depth",
+    "presetQuickFeatures": "headers, TLS, ports, SPF/DMARC, robots & security.txt, takeover.",
+    "presetCompleteFeatures": "adds source crawl, subdomains, VirusTotal, wp-cron, Google dork, AI summary.",
+    "targetPlaceholder": "example.com, 93.184.216.34, or https://api.example.com/v1",
+    "scanning": "Scanning",
+    "analyze": "Analyze",
+    "tryLabel": "Try:",
+    "apiKeySummary": "Shared host: API key for Argus routes (optional)",
+    "apiKeyHelpStart": "When the server sets ",
+    "apiKeyHelpMid": ", paste the same value here. It is stored in this browser only and sent as ",
+    "apiKeyHelpEnd": ".",
+    "apiKeyPlaceholder": "Paste server API key…"
+  },
+  "home": {
+    "dataSources": "Data sources",
+    "featureCards": {
+      "headers": "Security Headers",
+      "headersDesc": "OWASP-aligned header grading + cookies",
+      "source": "Source leak scan",
+      "sourceDesc": "Crawl pages & JS for keys, JWTs, credentials (Complete scan)",
+      "ports": "Ports + takeover",
+      "portsDesc": "Shodan high-risk ports; CNAME takeover heuristics",
+      "ai": "AI + VirusTotal",
+      "aiDesc": "Domain intel; Gemini summary when configured (Complete)",
+      "mail": "Mail & site files",
+      "mailDesc": "SPF/DMARC DNS, robots.txt & security.txt — no extra accounts",
+      "preset": "Quick vs Complete",
+      "presetDesc": "Quick: fast posture check. Complete: subdomains, crawl, dorks, AI."
+    }
+  }
+}
