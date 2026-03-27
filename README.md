@@ -2,7 +2,7 @@
 
 **Author:** [Ankit Pandey](https://github.com/Ankitspandey07)
 
-**Live demo:** [argus-security-intelligence.vercel.app](https://argus-security-intelligence.vercel.app/)
+**Live demo:** [Argus - Security Intelligence](https://argus-security-intelligence07.vercel.app/)
 
 ---
 
